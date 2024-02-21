@@ -19,10 +19,10 @@
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
-    font-weight: var(--font-medium);
+    font-weight: var(--big-font-size);
 }
 
-.nav__list {
+/* .nav__list {
     display: flex;
     column-gap: 2rem;
 }
@@ -46,15 +46,14 @@
 .active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
-}
+} */
 
 /* BREAKPOINTS */
 @media screen and (max-width: 768px){
-    .header {
-        top: initial;
-        bottom: 0;
+     .header {
+        top: initial;   
     }
-
+ /* 
     .nav{
         height: var(--header-height);    
     }
@@ -72,7 +71,7 @@
     }
 
     /* show menu */
-    .show-menu{
+    /* .show-menu{
         bottom: 0;
     }
 
@@ -106,15 +105,15 @@
     .nav__close,
     .nav__toggle{
         display: block;
-    }
+    }  */
 }
 
 @media screen and (max-width: 350px){
-    .nav__menu{
+    /* .nav__menu{
         padding: 2rem 0.25rem 4rem;
     }
 
     .nav__list{
         column-gap: 0;
-    }
+    } */
 }

@@ -71,7 +71,8 @@ font-size: var(--normal-font-size);
 }
 
 body {
-  background-color: var(--body-color);
+  background-color: #fff;
+  /* background-color: var(--body-color); */
   color: var(--text-color);
 }
 
@@ -114,10 +115,10 @@ a {
   margin-bottom: 4rem;
 }
 
-.section,
+/* .section,
 .section_subtitle {
   text-align: center;
-}
+} */
 /* LAYOUT */
 .container {
   max-width: 968px;
@@ -151,17 +152,6 @@ a {
   display: inline-flex;
   align-items: center;
 }
-/* BREAKPOINTS *
-/
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
 
 @media screen and (max-width: 992px){
   :root {
