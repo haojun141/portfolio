@@ -100,21 +100,21 @@ img {
   padding: 6rem 0 2rem;
 }
 
-.section_title {
+.section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section_subtitle {
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-/* .section,
+.section,
 .section_subtitle {
   text-align: center;
-} */
+}
 /* LAYOUT */
 .container {
   max-width: 968px;
@@ -137,7 +137,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-black);
+  background-color: black;
 }
 
 .button_icon {
